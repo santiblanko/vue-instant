@@ -11,7 +11,7 @@ vue instant allows you to easily create search controls with auto suggest for yo
 - [Example](#example)
 
 # Example
-https://santiblanko.github.io/vue-instant/#/
+https://santiblanko.github.io/vue-instant
 
 
 # Installation
