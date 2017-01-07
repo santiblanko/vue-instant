@@ -27,15 +27,6 @@ import VueInstant from 'vue-instant'
 Vue.use(VueInstant)
 ```
 
-Use specific components:
-
-```javascript
-import Vue from 'vue'
-import { Test } from 'vue-instant'
-
-Vue.component('test', Test)
-```
-
 **⚠️ A css file is included when importing the package. You may have to setup your bundler to embed the css in your page.**
 
 ## Distribution import
@@ -48,16 +39,6 @@ import VueInstant from 'vue-instant/dist/vue-instant.common'
 
 Vue.use(VueInstant)
 ```
-
-Use specific components:
-
-```javascript
-import 'vue-instant/dist/vue-instant.css'
-import { Test } from 'vue-instant/dist/vue-instant.common'
-
-Vue.component('test', Test)
-```
-
 **⚠️ You may have to setup your bundler to embed the css file in your page.**
 
 ## Browser
@@ -77,12 +58,6 @@ Install all the components:
 Vue.use(VueInstant)
 ```
 
-Use specific components:
-
-```javascript
-Vue.component('test', VueInstant.Test)
-```
-
 ## Source import
 
 Install all the components:
@@ -94,28 +69,8 @@ import VueInstant from 'vue-instant/src'
 Vue.use(VueInstant)
 ```
 
-Use specific components:
-
-```javascript
-import Vue from 'vue'
-import { Test } from 'vue-instant/src'
-
-Vue.component('test', Test)
-```
-
 **⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
-
-# Usage
-
-> TODO
-
-# Example
-
-> TODO
-
----
-
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+MIT © [Santiago Blanco](http://twitter.com/santiblanko)
