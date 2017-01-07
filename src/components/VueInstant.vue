@@ -403,6 +403,7 @@
         this.clearPlaceholder()
         this.clearSimilarData()
         this.clearSelectedSuggest()
+        this.emitSelected()
       },
       clearAll () {
         this.clearSelected()
