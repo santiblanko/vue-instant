@@ -12,11 +12,7 @@ module.exports = merge(base, {
     library: globalName,
     libraryTarget: 'umd',
   },
-  externals: {
-    // Put external libraries like lodash here
-    // With their global name
-    // Example: 'lodash': '_'
-  },
+  externals: {},
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {
