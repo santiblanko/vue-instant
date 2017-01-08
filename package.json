@@ -55,5 +55,8 @@
     "vue-template-compiler": "^2.1.6",
     "webpack": "^2.1.0-beta.28",
     "webpack-merge": "^1.1.2"
+  },
+  "dependencies": {
+    "vue-clickaway": "^2.1.0"
   }
 }
