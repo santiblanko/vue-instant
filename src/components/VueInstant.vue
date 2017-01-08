@@ -16,7 +16,7 @@
             </svg>
           </button>
            <div v-if="modeIsFull" class='el-input-group__append'>
-             <ul v-if="showSuggestions" class="vue-instant__suggestions">
+             <ul v-on-clickaway="away" v-if="suggestionsIsVisible && showSuggestions" class="vue-instant__suggestions">
                  <li @click="selectedAction(index)" v-for="(item, index) in similiarData" :class="getClassHighlighted(index)">{{item[suggestionAttribute]}}</li>
              </ul>
           </div>
@@ -37,8 +37,10 @@
 </div>
 </template>
 <script>
+  import { mixin as clickaway } from 'vue-clickaway'
   export default {
     name: 'vueInstant',
+    mixins: [ clickaway ],
     props: {
       'value': {
         type: String,
@@ -85,6 +87,7 @@
         selectedEvent: null,
         selectedSuggest: null,
         inputChanged: false,
+        suggestionsIsVisible: true,
         highlightedIndex: 0,
         highlightedIndexMax: 7,
         textVal: this.value,
@@ -443,6 +446,7 @@
       processChangeText (e) {
         if (this.notEnterKeyEvent()) {
           this.inputChanged = true
+          this.suggestionsIsVisible = true
           this.clearAllAndFindSuggest()
         }
       },
@@ -451,6 +455,10 @@
           this.clearAll()
           this.findSuggests()
         }
+      },
+      away () {
+        this.suggestionsIsVisible = false
+        this.emitSelected()
       },
       emitChange () {
         this.$emit('input', this.textVal)
@@ -1547,7 +1555,7 @@
 
 
  .el-input-group__append {
-   border: 0px;
+   border: 0px !important;
  }
 
 .sbx-custom__input {
