@@ -15,7 +15,7 @@ Project page
 
 https://santiblanko.github.io/vue-instant
 
-Fiddle with all properties and events
+Fiddle with all attributes and events
 
 https://jsfiddle.net/santiblanko/dqo6vr57/
 
