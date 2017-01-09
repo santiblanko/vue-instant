@@ -12,9 +12,11 @@ vue instant allows you to easily create search controls with auto suggest for yo
 # Examples
 
 Component page with the documentation of the component
+
 https://santiblanko.github.io/vue-instant
 
 Fiddle with all properties and events
+
 https://jsfiddle.net/santiblanko/dqo6vr57/
 
 If you need a example using webpack see the example folder.
