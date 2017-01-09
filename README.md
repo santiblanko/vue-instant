@@ -8,7 +8,6 @@ vue instant allows you to easily create search controls with auto suggest for yo
 
 - [Example](#example)
 - [Installation](#installation)
-- [Usage](#usage)
 
 # Example
 https://santiblanko.github.io/vue-instant
