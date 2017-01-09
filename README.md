@@ -1,9 +1,9 @@
-# vue-instant
+# vue Instant!
 
 [![npm](https://img.shields.io/npm/v/vue-instant.svg) ![npm](https://img.shields.io/npm/dm/vue-instant.svg)](https://www.npmjs.com/package/vue-instant)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-vue instant allows you to easily create search controls with auto suggest for your vue application.
+vue instant allows you to easily create custom search controls with auto suggestions for your vue 2 applications.
 ## Table of contents
 
 - [Examples](#example)
