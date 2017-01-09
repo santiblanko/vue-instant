@@ -37,6 +37,7 @@ import VueInstant from 'vue-instant'
 import 'vue-instant/dist/vue-instant.css'
 Vue.use(VueInstant)
 ```
+**⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
 
 ## Browser
 If you need more details see the examples folder.
@@ -47,16 +48,6 @@ If you need more details see the examples folder.
 <script src="vue.js"></script>
 <script src="vue-instant/dist/vue-instant.browser.js"></script>
 ```
-
-The plugin should be auto-installed. If not, you can install it manually with the instructions below.
-
-Install all the components:
-
-```javascript
-Vue.use(VueInstant)
-```
-
-**⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
 
 ## License
 
