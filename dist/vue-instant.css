@@ -370,7 +370,7 @@
   display: inline-block;
   position: absolute !important;
   left: 0 !important;
-  top: 0 !important;
+  top:0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
