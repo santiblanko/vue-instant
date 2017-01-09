@@ -10,7 +10,7 @@ vue instant allows you to easily create custom search controls with auto suggest
 
 ## Table of contents
 
-- [Examples](#example)
+- [Examples](#examples)
 - [Installation](#installation)
 
 # Examples
