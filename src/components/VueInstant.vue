@@ -406,6 +406,7 @@
         this.clearPlaceholder()
         this.clearSimilarData()
         this.clearSelectedSuggest()
+        this.emitClear()
         this.emitSelected()
       },
       clearAll () {
@@ -464,31 +465,28 @@
         this.$emit('input', this.textVal)
       },
       emitClickInput (event) {
-        this.$emit('clickInput', event)
+        this.$emit('click-input', event)
       },
       emitClickButton (event) {
-        this.$emit('clickButton', this.textVal)
+        this.$emit('click-button', this.textVal)
       },
       emitEnter () {
         this.$emit('enter')
       },
       emitKeyUp () {
-        this.$emit('keyUp')
+        this.$emit('key-up')
       },
       emitKeyDown () {
-        this.$emit('keyDown', this.selectedSuggest)
+        this.$emit('key-down', this.selectedSuggest)
       },
       emitKeyRight () {
-        this.$emit('keyRight')
+        this.$emit('key-right')
       },
       emitClear () {
         this.$emit('clear')
       },
       emitEscape () {
         this.$emit('escape')
-      },
-      emitClick () {
-        this.$emit('autocompleteClick', this.selectedSuggest)
       },
       emitSelected () {
         this.$emit('selected', this.selectedSuggest)
@@ -919,7 +917,7 @@
   display: inline-block;
   position: absolute !important;
   left: 0 !important;
-  top: 0 !important;
+  top:0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
