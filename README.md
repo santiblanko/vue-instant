@@ -29,6 +29,7 @@ npm install --save vue-instant
 
 ## Default import
 If you need more details see the examples folder.
+
 Install all the components:
 
 ```javascript
