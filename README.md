@@ -20,31 +20,18 @@ npm install --save vue-instant
 ```
 
 ## Default import
-
+If you need more details see the examples folder.
 Install all the components:
 
 ```javascript
 import Vue from 'vue'
 import VueInstant from 'vue-instant'
-
-Vue.use(VueInstant)
-```
-
-**⚠️ A css file is included when importing the package. You may have to setup your bundler to embed the css in your page.**
-
-## Distribution import
-
-Install all the components:
-
-```javascript
 import 'vue-instant/dist/vue-instant.css'
-import VueInstant from 'vue-instant/dist/vue-instant.common'
-
 Vue.use(VueInstant)
 ```
-**⚠️ You may have to setup your bundler to embed the css file in your page.**
 
 ## Browser
+If you need more details see the examples folder.
 
 ```html
 <link rel="stylesheet" href="vue-instant/dist/vue-instant.css"/>
