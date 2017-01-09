@@ -516,7 +516,8 @@
 
 .sbx-facebook__input {
   position: absolute !important;
-  left:0px !important;
+  left:0 !important;
+  top: 0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
@@ -719,6 +720,7 @@
   display: inline-block;
   position: absolute !important;
   left:0 !important;
+  top:0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
@@ -917,6 +919,7 @@
   display: inline-block;
   position: absolute !important;
   left: 0 !important;
+  top: 0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
@@ -1117,6 +1120,7 @@
   display: inline-block;
   position: absolute;
   left: 0 !important;
+  top: 0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
@@ -1138,7 +1142,6 @@
 
 .sbx-twitter__input-placeholder {
   display: inline-block;
-  left: 0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
@@ -1318,6 +1321,7 @@
   display: inline-block;
   position: absolute;
   left: 0 !important;
+  top: 0 !important;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
   border: 0;
