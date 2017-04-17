@@ -5,8 +5,7 @@
 
 vue instant allows you to easily create custom search controls with auto suggestions for your vue 2 applications.
 
-[![header](http://g.recordit.co/Yeg0Bl0nJO.gif)]
-(https://santiblanko.github.io/vue-instant/)
+[![header](http://g.recordit.co/Yeg0Bl0nJO.gif)](https://santiblanko.github.io/vue-instant/)
 
 ## Table of contents
 
@@ -21,7 +20,7 @@ https://santiblanko.github.io/vue-instant
 
 Fiddle with all attributes and events
 
-https://jsfiddle.net/santiblanko/dqo6vr57/
+https://jsfiddle.net/santiblanko/dqo6vr57
 
 If you need a example using webpack see the example folder.
 
