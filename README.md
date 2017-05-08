@@ -37,8 +37,8 @@ Install all the components:
 
 ```javascript
 import Vue from 'vue'
-import VueInstant from 'vue-instant'
 import 'vue-instant/dist/vue-instant.css'
+import VueInstant from 'vue-instant/dist/vue-instant.common'
 Vue.use(VueInstant)
 ```
 **⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
