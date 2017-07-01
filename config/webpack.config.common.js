@@ -11,10 +11,14 @@ module.exports = merge(base, {
   output: {
     path: distDir,
     filename: outputFile + '.common.js',
+    library: 'vue-instant',
     libraryTarget: 'commonjs2',
   },
   target: 'node',
-  externals: {},
+  externals: {
+    vue: 'vue',
+    'vue-clickaway': 'vue-clickaway'
+  },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {
