@@ -20,7 +20,6 @@
   "license": "MIT",
   "main": "dist/vue-instant.common.js",
   "unpkg": "dist/vue-instant.browser.js",
-  "module": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",
     "build": "npm run build:browser && npm run build:common",
