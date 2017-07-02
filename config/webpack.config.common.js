@@ -17,7 +17,7 @@ module.exports = merge(base, {
   target: 'node',
   externals: {
     vue: 'vue',
-    'vue-clickaway': 'vue-clickaway'
+    'vue-clickaway': 'vue-clickaway' // use package (?)
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({

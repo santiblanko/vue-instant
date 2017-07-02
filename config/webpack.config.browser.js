@@ -14,13 +14,16 @@ module.exports = merge(base, {
     library: globalName,
     libraryTarget: 'umd',
   },
-  externals: {},
+  externals: {
+    vue: 'vue',
+    'vue-clickaway': 'VueClickaway' // use global variable VueClickaway (https://webpack.github.io/docs/library-and-externals.html)
+  },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: true,
-      },
-      mangle: false,
-    }),
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: true,
+        },
+        mangle: false,
+      }),
   ],
 })
