@@ -50,6 +50,7 @@ If you need more details see the examples folder.
 <link rel="stylesheet" href="vue-instant/dist/vue-instant.css"/>
 
 <script src="vue.js"></script>
+<script src="vue-clickaway.js"></script>
 <script src="vue-instant/dist/vue-instant.browser.js"></script>
 ```
 
