@@ -38,7 +38,7 @@ Install all the components:
 ```javascript
 import Vue from 'vue'
 import 'vue-instant/dist/vue-instant.css'
-import VueInstant from 'vue-instant/dist/vue-instant.common'
+import VueInstant from 'vue-instant'
 Vue.use(VueInstant)
 ```
 **⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
@@ -50,6 +50,7 @@ If you need more details see the examples folder.
 <link rel="stylesheet" href="vue-instant/dist/vue-instant.css"/>
 
 <script src="vue.js"></script>
+<script src="vue-clickaway.js"></script>
 <script src="vue-instant/dist/vue-instant.browser.js"></script>
 ```
 
