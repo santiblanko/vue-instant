@@ -60,11 +60,11 @@ export default {
               that.suggestions.push(a)
           })
       })
-  },
-  components: {
-    'vue-instant': VueInstant
+    },
+    components: {
+      'vue-instant': VueInstant
+    }
   }
-}
 }
 </script>
 
