@@ -90,7 +90,6 @@
         suggestionsIsVisible: true,
         highlightedIndex: 0,
         highlightedIndexMax: 7,
-        textVal: this.value,
         similiarData: [],
         placeholderVal: this.placeholder,
         types: [{
@@ -215,6 +214,15 @@
       getSVGClear () {
         var type = this.getType()
         return type.svgClear
+      },
+
+      textVal: {
+        get () {
+          return this.value
+        },
+        set (v) {
+          this.$emit('input', v)
+        }
       }
     },
     methods: {
@@ -462,7 +470,7 @@
         this.emitSelected()
       },
       emitChange () {
-        this.$emit('input', this.textVal)
+        // this.$emit('input', this.textVal)
       },
       emitClickInput (event) {
         this.$emit('click-input', event)
