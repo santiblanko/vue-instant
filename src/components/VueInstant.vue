@@ -470,7 +470,7 @@
         this.emitSelected()
       },
       emitChange () {
-        this.$emit('input', this.textVal)
+        // this.$emit('input', this.textVal)
       },
       emitClickInput (event) {
         this.$emit('click-input', event)
