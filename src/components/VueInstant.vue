@@ -167,6 +167,13 @@
         ]
       }
     },
+    watch: {
+      placeholder: function (val) {
+        if(this.textValIsEmpty()) {
+          this.placeholderVal = val
+        }
+      }
+    },
     computed: {
       getPlaceholder () {
         if (this.inputChanged || this.textValIsEmpty()) {
