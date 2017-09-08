@@ -169,7 +169,7 @@
     },
     watch: {
       placeholder: function (val) {
-        if(this.textValIsEmpty()) {
+        if (this.textValIsEmpty()) {
           this.placeholderVal = val
         }
       }
