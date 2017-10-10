@@ -80,6 +80,10 @@
       'showAutocomplete': {
         type: Boolean,
         default: true
+      },
+      'suggestOnAllWords': {
+        type: Boolean,
+	default: false
       }
     },
     data () {
@@ -384,10 +388,33 @@
             this.placeholderVal === '' && this.highlightedIndex !== 0
       },
       isSimilar (o) {
-        if (o) {
-          return o[this.suggestionAttribute]
-                  .toLowerCase()
-                  .startsWith(this.textVal.toLowerCase())
+          if (o) {
+	   if ( this.suggestOnAllWords ) {
+	      var isMatch = false;
+	      var words = o[this.suggestionAttribute].split(" ");
+	      var textValWords = this.textVal.split(" ");
+	      if ( words.length > 0) {
+		  words.forEach(function(word)  {
+		      if ( textValWords.length > 0) {
+			  textValWords.forEach(function(textValWord) {
+			      if (word.toLowerCase().startsWith(textValWord.toLowerCase())) {
+				  isMatch = true;
+			      }
+			  });
+		      }
+		      else if (word.toLowerCase().startsWith(this.textVal.toLowerCase())) {
+			  isMatch = true;
+		      }
+		  });
+		  return isMatch;
+	      } 
+	   }
+
+           return o[this.suggestionAttribute]
+        	  .toLowerCase()
+		  .startsWith(this.textVal.toLowerCase())		  
+
+
         }
       },
       isSameType (o) {
