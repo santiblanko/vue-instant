@@ -467,7 +467,7 @@
         this.selectedSuggest = null
       },
       clearSimilarData () {
-        this.similiarData = []
+        this.similiarData.length = 0
       },
       clearPlaceholder () {
         if (this.textValIsEmpty()) {

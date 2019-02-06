@@ -53,7 +53,7 @@ export default {
     },
     changed: function() {
       var that = this
-      this.suggestions = []
+      this.suggestions.length = 0
       axios.get('https://api.themoviedb.org/3/search/movie?api_key=342d3061b70d2747a1e159ae9a7e9a36&query=' + this.value)
           .then(function(response) {
           response.data.results.forEach(function(a) {
