@@ -175,6 +175,12 @@
       }
     },
     watch: {
+      suggestions: {
+        deep: true,
+        handler() {
+          this.findSuggests();
+        }
+      },
       placeholder: function(val) {
         if (this.textValIsEmpty()) {
           this.placeholderVal = val
