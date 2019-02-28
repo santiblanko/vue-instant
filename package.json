@@ -57,6 +57,6 @@
   },
   "dependencies": {
     "vue": "^2.1.8",
-    "vue-clickaway": "^2.1.0"
+    "vue-clickaway": "2.1.0"
   }
 }
