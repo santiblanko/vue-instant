@@ -9,7 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.21.2",
     "vue": "^2.1.0",
     "vue-instant": "0.0.12"
   },
