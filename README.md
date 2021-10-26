@@ -54,6 +54,3 @@ If you need more details see the examples folder.
 <script src="vue-instant/dist/vue-instant.browser.js"></script>
 ```
 
-## License
-
-MIT © [Santiago Blanco](http://twitter.com/santiblanko)
