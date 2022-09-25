@@ -9,11 +9,12 @@ vue instant allows you to easily create custom search controls with auto suggest
 
 If this implementation looks great you can share a beer using [patreon](https://patreon.com/santiblanko?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator) or send me bitcoins.
 
- ## Donations for v2
+ ## Donations
+Share a coffee if this project help you.
 ### Bitcoin direction: 
 31p39e3AtdEv8T2aU9y9D1XH9Wc5HEtRte
 
-I will be enormously grateful. :) Also I am available for capacitations, keycloak courses and projects!! 
+I will be enormously grateful. :) Also I am available for courses and projects!! 
 <b>Whatsapp :) +573233729549</b>
 
 
