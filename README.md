@@ -7,6 +7,15 @@ vue instant allows you to easily create custom search controls with auto suggest
 
 [![header](http://g.recordit.co/Yeg0Bl0nJO.gif)](https://santiblanko.github.io/vue-instant/)
 
+If this implementation looks great you can share a beer using [patreon](https://patreon.com/santiblanko?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator) or send me bitcoins.
+
+### Bitcoin direction: 
+31p39e3AtdEv8T2aU9y9D1XH9Wc5HEtRte
+
+I will be enormously grateful. :) Also I am available for capacitations, keycloak courses and projects!! 
+<b>Whatsapp :) +573233729549</b>
+
+
 ## Table of contents
 
 - [Examples](#examples)
@@ -53,4 +62,6 @@ If you need more details see the examples folder.
 <script src="vue-clickaway.js"></script>
 <script src="vue-instant/dist/vue-instant.browser.js"></script>
 ```
+
+
 
