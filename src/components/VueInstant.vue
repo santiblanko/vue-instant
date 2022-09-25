@@ -458,6 +458,7 @@
         this.clearSelectedSuggest()
         this.emitClear()
         this.emitSelected()
+        this.emitChange()
       },
       clearAll() {
         this.clearSelected()
@@ -512,7 +513,7 @@
         this.emitSelected()
       },
       emitChange() {
-        // this.$emit('input', this.textVal)
+        this.$emit('change', this.selectedSuggest)
       },
       emitClickInput(event) {
         this.$emit('click-input', event)
